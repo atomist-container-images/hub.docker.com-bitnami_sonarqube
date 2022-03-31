@@ -1,9 +1,12 @@
-# Tags: latest, 9.3.0-debian-10-r40, 9.3.0, 9-debian-10, 9
+# Tags: latest, 9.3.0-debian-10-r41, 9.3.0, 9-debian-10, 9
 FROM bitnami/sonarqube:latest
-FROM bitnami/sonarqube:9.3.0-debian-10-r40
+FROM bitnami/sonarqube:9.3.0-debian-10-r41
 FROM bitnami/sonarqube:9.3.0
 FROM bitnami/sonarqube:9-debian-10
 FROM bitnami/sonarqube:9
+
+# Tags: _
+FROM bitnami/sonarqube:_
 
 # Tags: 8.9.7-debian-10-r49, 8.9.7, 8-debian-10, 8
 FROM bitnami/sonarqube:8.9.7-debian-10-r49
@@ -11,8 +14,8 @@ FROM bitnami/sonarqube:8.9.7
 FROM bitnami/sonarqube:8-debian-10
 FROM bitnami/sonarqube:8
 
-# Tags: _
-FROM bitnami/sonarqube:_
+# Tags: 9.3.0-debian-10-r40
+FROM bitnami/sonarqube:9.3.0-debian-10-r40
 
 # Tags: 8.9.7-debian-10-r48
 FROM bitnami/sonarqube:8.9.7-debian-10-r48
@@ -139,6 +142,3 @@ FROM bitnami/sonarqube:9.3.0-debian-10-r26
 
 # Tags: 9.3.0-debian-10-r25
 FROM bitnami/sonarqube:9.3.0-debian-10-r25
-
-# Tags: 8.9.7-debian-10-r20
-FROM bitnami/sonarqube:8.9.7-debian-10-r20
